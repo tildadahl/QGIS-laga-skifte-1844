@@ -2,14 +2,14 @@ var wms_layers = [];
 
 
         var lyr_Googlesatellite_0 = new ol.layer.Tile({
-            'title': 'Google satellite',
+            'title': 'OpenStreetMap',
             'type':'base',
             'opacity': 1.000000,
             
             
             source: new ol.source.XYZ({
             attributions: ' ',
-                url: 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}'
+                url: 'https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
 var lyr_Gckelgrde1844_TPS_1 = new ol.layer.Image({
